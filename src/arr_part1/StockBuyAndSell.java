@@ -26,9 +26,9 @@ public class StockBuyAndSell {
 		int second = 1;
 		int maxProfit = 0;
 		while (first < n && second < n) {
-			int sum = prices[second] - prices[first];
-			if (sum > maxProfit) {
-				maxProfit = sum;
+			int diff = prices[second] - prices[first];
+			if (diff > maxProfit) {
+				maxProfit = diff;
 			}
 			if (prices[first] < prices[second]) {
 				second++;

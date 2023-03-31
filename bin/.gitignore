@@ -9,6 +9,7 @@
 /dp/
 /graph/
 /greedy/
+/hash/
 /heap/
 /linkedlist1/
 /linkedlistarray/
@@ -20,6 +21,3 @@
 /recursionbacktracking/
 /reverseecho/
 /stack/
-/string/
-/tree/
-/hash/
